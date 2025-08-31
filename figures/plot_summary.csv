@@ -1,0 +1,9 @@
+Figure,Title,Description
+Figure_2_Performance_Comparison,Algorithm Performance Comparison,Bar chart comparing all algorithms with error bars
+Figure_3_Effect_Sizes,Effect Sizes vs Baseline Algorithms,Cohen's d values with magnitude interpretation
+Figure_3_bis_Statistical_Significance_Analysis,Statistical Significance Analysis,Improvement percentages with p-values and significance markers
+Figure_4_Training_Convergence,Hypervolume Convergence During MORL Training,Shows learning progression and stability
+Figure_5_Pareto_Evolution,Evolution of Pareto Front Size,Growth of non-dominated solutions over time
+Figure_6_Objective_Learning,Individual Objective Learning Curves,Learning progression for each manufacturing objective
+Figure_7_Pareto_Front_2D,2D Pareto Front Visualization,Scatter plot showing trade-offs between objectives
+Figure_8_Convergence_Analysis,Detailed Convergence Analysis,Multi-panel analysis of learning dynamics
