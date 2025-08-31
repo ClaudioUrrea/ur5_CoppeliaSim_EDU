@@ -38,8 +38,14 @@ class ProfessionalPlotGenerator:
         # Try to use Palatino Linotype font, fallback to serif
         try:
             plt.rcParams['font.family'] = 'Palatino Linotype'
+            # Configure math fonts to also use Palatino
+            plt.rcParams['mathtext.fontset'] = 'custom'
+            plt.rcParams['mathtext.rm'] = 'Palatino Linotype'
+            plt.rcParams['mathtext.it'] = 'Palatino Linotype:italic'
+            plt.rcParams['mathtext.bf'] = 'Palatino Linotype:bold'
         except:
             plt.rcParams['font.family'] = 'serif'
+            plt.rcParams['mathtext.fontset'] = 'dejavuserif'
             
         plt.rcParams['font.size'] = 14
         plt.rcParams['axes.titlesize'] = 16
@@ -126,9 +132,9 @@ class ProfessionalPlotGenerator:
         if exponent == 0:
             return f'{base:.2f}'
         elif exponent < 0:
-            return f'{base:.1f} × 10$^{{{minus_sign}{abs(exponent)}}}$'
+            return f'{base:.1f} Ã— 10$^{{{minus_sign}{abs(exponent)}}}$'
         else:
-            return f'{base:.1f} × 10$^{{{exponent}}}$'
+            return f'{base:.1f} Ã— 10$^{{{exponent}}}$'
     
     def save_plot(self, fig, filename, title=""):
         """Save plot in multiple formats with proper naming"""
@@ -247,10 +253,10 @@ class ProfessionalPlotGenerator:
             ax.text(text_x, i, 
                    f'{effect_size:.2f}', va='center', fontweight='bold')
         
-        # Formatting
+        # Formatting with updated xlabel for italic 'd' in Palatino Linotype
         ax.set_yticks(y_pos)
         ax.set_yticklabels(baseline_names)
-        ax.set_xlabel('Effect Size (Cohen\'s $d$)')
+        ax.set_xlabel('Effect Size (Cohen\'s $d$)')  # Updated: italic d in math mode
         ax.set_title('Effect Sizes of MORL Improvements vs Baseline Algorithms')
         ax.grid(True, alpha=0.3, axis='x')
         
@@ -348,7 +354,7 @@ class ProfessionalPlotGenerator:
         # Add legend for colors (positioned in upper right to avoid overlap)
         from matplotlib.patches import Patch
         legend_elements = [Patch(facecolor='green', alpha=0.7, label='Significant (p < 0.05)'),
-                          Patch(facecolor='orange', alpha=0.7, label='Not Significant (p ≥ 0.05)')]
+                          Patch(facecolor='orange', alpha=0.7, label='Not Significant (p â‰¥ 0.05)')]
         ax.legend(handles=legend_elements, loc='upper right')
         
         self.save_plot(fig, 'Figure_3_bis_Statistical_Significance_Analysis')

@@ -1,8 +1,8 @@
 Baseline Algorithm,Improvement (%),p-value,Significant,Effect Size,Effect Magnitude
-PID + Trajectory Planning,+30.17%,0.0000,Yes,1.018,Large
-Single-Objective PPO,+22.05%,0.0006,Yes,0.789,Medium
-Single-Objective DDPG,+7.21%,0.1136,No,0.252,Small
-Single-Objective SAC,-6.44%,0.6379,No,-0.226,Small
-Evolutionary NSGA-II,+28.88%,0.0000,Yes,1.143,Large
-Evolutionary SPEA2,+23.99%,0.0002,Yes,0.889,Large
-Evolutionary MOEA-D,+22.07%,0.0004,Yes,0.836,Large
+PID + Trajectory Planning,+14.09%,0.0089,Yes,0.493,Small
+Single-Objective PPO,+29.27%,0.0000,Yes,1.040,Large
+Single-Objective DDPG,+11.39%,0.0169,Yes,0.392,Small
+Single-Objective SAC,-2.77%,0.4545,No,-0.091,Negligible
+Evolutionary NSGA-II,+12.94%,0.0406,Yes,0.471,Small
+Evolutionary SPEA2,+34.50%,0.0000,Yes,1.260,Large
+Evolutionary MOEA-D,+18.78%,0.0113,Yes,0.597,Medium
