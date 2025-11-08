@@ -1,11 +1,11 @@
-# Adaptive Multi-Objective Reinforcement Learning for Cyber-Physical Manufacturing Systems: A Real-Time Optimization Framework for Industry 4.0
+# Adaptive Multi-Objective Reinforcement Learning for Intelligent Manufacturing Robots: Real-Time Optimization and Control in Automated Pick-and-Place Operation
 
 [![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.30017611-blue)](https://doi.org/10.6084/m9.figshare.30017611)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
-This repository contains the complete implementation of the Adaptive Multi-Objective Reinforcement Learning for Cyber-Physical Manufacturing Systems using the UR5 robot in CoppeliaSim EDU.
+This repository contains the complete implementation of the Adaptive Multi-Objective Reinforcement Learning for Intelligent Manufacturing Robot using the UR5 robot in CoppeliaSim EDU.
 
 ## System Architecture
 
@@ -128,7 +128,7 @@ If you use this code or data in your research, please cite:
 
 ```bibtex
 @article{urrea2025amorl,
-  title={Adaptive Multi-Objective Reinforcement Learning for Cyber-Physical Manufacturing Systems: A Real-Time Optimization Framework for Industry 4.0},
+  title={Adaptive Multi-Objective Reinforcement Learning for Intelligent Manufacturing Robots: Real-Time Optimization and Control in Automated Pick-and-Place Operations},
   author={Urrea, Claudio},
   journal={[Journal Name]},
   year={2025},
