@@ -130,9 +130,9 @@ If you use this code or data in your research, please cite:
 @article{urrea2025amorl,
   title={Adaptive Multi-Objective Reinforcement Learning for Intelligent Manufacturing Robots: Real-Time Optimization and Control in Automated Pick-and-Place Operations},
   author={Urrea, Claudio},
-  journal={[Journal Name]},
+  journal={Machines},
   year={2025},
-  publisher={[Publisher]},
+  publisher={MDPI},
   doi={[DOI when published]}
 }
 ```
@@ -150,6 +150,5 @@ Department of Electrical Engineering
 
 ## Acknowledgments
 
-- This research was conducted using CoppeliaSim EDU for educational and research purposes
-- Video documentation demonstrates complete system operation
-- Statistical analysis validates algorithm performance across multiple manufacturing objectives
+- This work was supported by CoppeliaSim, which provided an educational license for high-fidelity simulation, and the Faculty of Engineering of the Universidad de Santiago de Chile. 
+- The author thanks the anonymous reviewers for their constructive feedback.
