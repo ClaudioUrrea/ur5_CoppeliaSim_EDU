@@ -1,4 +1,4 @@
-# Adaptive Multi-Objective Reinforcement Learning for Intelligent Manufacturing Robots: Real-Time Optimization and Control in Automated Pick-and-Place Operation
+# Adaptive Multi-Objective Reinforcement Learning for Intelligent Manufacturing Robots: Real-Time Optimization and Control in Automated Pick-and-Place Operations
 
 [![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.30017611-blue)](https://doi.org/10.6084/m9.figshare.30017611)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
